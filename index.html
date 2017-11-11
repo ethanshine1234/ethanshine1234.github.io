@@ -1,15 +1,14 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="utf-8">
         <title>Ethan's Blog</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
     
         <style>
     
             body {font-family: sans-serif;}
-            
-            
-            
             
             .header{width:100%;
             position:fixed;
@@ -17,6 +16,44 @@
             background: #00FFFF;
             font-size: 30px;
             text-align: center;}
+            
+            {
+            box-sizing: border-box;
+            }
+
+            body {
+                    margin: 0;
+                 }
+
+            /* Style the side navigation */
+            .sidenav {height: 100%;
+                width: 200px;
+                position: fixed;
+                z-index: 1;
+                top: 0;
+                left: 0;
+                background-color: #111;
+                overflow-x: hidden:}
+
+
+/* Side navigation links */
+.sidenav a { color: white; 
+    padding: 16px; 
+    text-decoration: 
+    none;display: block;
+}
+
+/* Change color on hover */
+.sidenav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Style the content */
+.content {
+    margin-left: 200px;
+    padding-left: 20px;
+}
     
         </style>
     
@@ -62,6 +99,18 @@
         <div class="header">
         <div> <h1>Ethan's blog</h1> <a href="index.html">Home</a>   <a href="about.html">Facts</a></div>
         </div>
+        
+        
+        <div class="sidenav">
+  <a href="#">Link</a>
+  <a href="#">Link</a>
+  <a href="#">Link</a>
+</div>
+
+<div class="content">
+  <h2>CSS Template</h2>
+  <p>A full-height, fixed sidenav and content.</p>
+</div>
         
     </body>
 </html>
